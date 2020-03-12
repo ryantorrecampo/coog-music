@@ -13,7 +13,7 @@
     --background: #fff;
     --border: #d1d6ee;
     --border-hover: #a6accd;
-    --border-focus: #275efe;
+    --border-focus: #89dcff;
     --shadow-focus: #{rgba(#275efe, 0.32)};
     position: relative;
     max-width: 220px;
@@ -70,22 +70,6 @@
             box-shadow: 0 1px 6px -1px var(--shadow-focus);
         }
     }
-    &:not(.valid) {
-        input {
-            &:not(:placeholder-shown) {
-                &:not(:focus) {
-                    & + svg {
-                        --i: var(--icon-invalid);
-                    }
-                }
-            }
-        }
-    }
-    &.valid {
-        --i: var(--icon-valid);
-        --path: 132;
-        --path-delay: 0s;
-        --tick: 0;
-        --tick-delay: 0.3s;
-    }
-}
+   }
+
+

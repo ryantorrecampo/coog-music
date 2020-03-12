@@ -16,6 +16,9 @@ const Login = props => {
             </div>
             <div class="email-input">
                 <input type="password" placeholder="••••••••" />
+                <svg viewBox="0 0 18 18">
+                    
+                </svg>
             </div>
         </div>
     );
