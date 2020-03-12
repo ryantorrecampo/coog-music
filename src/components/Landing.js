@@ -28,7 +28,7 @@ const Landing = () => {
                         </p>
                     </div>
                 </div>
-                <div className="login-container">
+                <div className="login-menu-container">
                     <Login />
                 </div>
             </div>

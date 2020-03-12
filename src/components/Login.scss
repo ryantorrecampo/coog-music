@@ -1,16 +1,20 @@
+.login-container {
+    display: grid;
+    grid-template-rows: 80px 50px 50px;
+}
 
 .email-input {
-    --text: #646B8C;
-    --text-placeholder: #BBC1E1;
-    --icon: #A6ACCD;
-    --icon-focus: #646B8C;
-    --icon-invalid: #F04949;
-    --icon-valid: #16BF78;
+    --text: #646b8c;
+    --text-placeholder: #bbc1e1;
+    --icon: #a6accd;
+    --icon-focus: #646b8c;
+    --icon-invalid: #f04949;
+    --icon-valid: #16bf78;
     --background: #fff;
-    --border: #D1D6EE;
-    --border-hover: #A6ACCD;
-    --border-focus: #275EFE;
-    --shadow-focus: #{rgba(#275EFE, .32)};
+    --border: #d1d6ee;
+    --border-hover: #a6accd;
+    --border-focus: #275efe;
+    --shadow-focus: #{rgba(#275efe, 0.32)};
     position: relative;
     max-width: 220px;
     input {
@@ -27,7 +31,7 @@
         color: var(--text);
         border: 1px solid var(--bc, var(--border));
         background: var(--background);
-        transition: border-color .3s, box-shadow .3s;
+        transition: border-color 0.3s, box-shadow 0.3s;
         &::placeholder {
             color: var(--text-placeholder);
         }
@@ -44,16 +48,16 @@
         stroke-linecap: round;
         stroke-linejoin: round;
         stroke-width: 1.6;
-        transition: stroke .3s;
+        transition: stroke 0.3s;
         path {
             stroke-dasharray: 80;
             stroke-dashoffset: var(--path, 170);
-            transition: stroke-dashoffset .5s ease var(--path-delay, .3s);
+            transition: stroke-dashoffset 0.5s ease var(--path-delay, 0.3s);
         }
         polyline {
             stroke-dasharray: 12;
             stroke-dashoffset: var(--tick, 12);
-            transition: stroke-dashoffset .45s ease var(--tick-delay, 0s);
+            transition: stroke-dashoffset 0.45s ease var(--tick-delay, 0s);
         }
     }
     &:hover {
@@ -82,6 +86,6 @@
         --path: 132;
         --path-delay: 0s;
         --tick: 0;
-        --tick-delay: .3s;
+        --tick-delay: 0.3s;
     }
 }
