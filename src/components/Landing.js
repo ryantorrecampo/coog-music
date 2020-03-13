@@ -23,8 +23,10 @@ const Landing = () => {
                             of Houston
                         </p>
                         <p>
-                            Discover, stream, and share homemade tracks with
-                            thousands of students and alumni.
+                            Upload and stream music for other students and
+                            alumni to discover. With Coog Music, artists and
+                            creators within the University of Houston can easily
+                            share and connect with each other through their music.
                         </p>
                     </div>
                 </div>
