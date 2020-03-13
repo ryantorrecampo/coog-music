@@ -22,16 +22,25 @@ const Landing = () => {
                             A music streaming platform made for the University
                             of Houston
                         </p>
-                        <p>
-                            Upload and stream music for other students and
-                            alumni to discover. With Coog Music, artists and
-                            creators within the University of Houston can easily
-                            share and connect with each other through their music.
-                        </p>
                     </div>
                 </div>
+
                 <div className="login-menu-container">
                     <Login />
+                </div>
+                <div className="info-container">
+                    <p>
+                        Upload and stream music for other students and alumni to
+                        discover.
+                    </p>
+                    <p>
+                        With Coog Music, artists and creators within the
+                        University of Houston can easily share and connect with
+                        each other through their music.
+                    </p>
+                    <p>
+                        Not to metion, this service is <i>completely free</i>.
+                    </p>
                 </div>
             </div>
             <div className="footer-container">

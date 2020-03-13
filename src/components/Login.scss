@@ -1,4 +1,5 @@
 .login-container {
+    place-self: center;
     display: grid;
     grid-template-rows: 80px 50px 50px;
 }
@@ -16,9 +17,8 @@
     --border-focus: #89dcff;
     --shadow-focus: #{rgba(#275efe, 0.32)};
     position: relative;
-    max-width: 220px;
+    width: fit-content;
     input {
-        width: 100%;
         -webkit-appearance: none;
         outline: none;
         display: block;
@@ -70,6 +70,12 @@
             box-shadow: 0 1px 6px -1px var(--shadow-focus);
         }
     }
-   }
+}
 
-
+.submit-btn-group {
+    display: grid;
+    justify-items: start;
+    .btn {
+        width: fit-content;
+    }
+}
