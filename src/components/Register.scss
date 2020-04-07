@@ -2,7 +2,7 @@
     display: grid;
     padding-left: 45px;
     padding-bottom: 35px;
-    grid-template-rows: 80px 50px 50px;
+    grid-template-rows: 80px 50px 50px 50px;
 }
 
 .input-container {
@@ -10,8 +10,6 @@
     --text-placeholder: #bbc1e1;
     --icon: #a6accd;
     --icon-focus: #646b8c;
-    --icon-invalid: #f04949;
-    --icon-valid: #16bf78;
     --background: #fff;
     --border: #d1d6ee;
     --border-hover: #a6accd;
@@ -83,11 +81,11 @@
         padding-left: 8px;
         padding-right: 8px;
     }
-    .btn-login {
+    .btn-register {
         margin-left: 0px;
-        background-color: white;
-        color: #be3144;
-        border: 2px solid #be3144;
+        background-color: #be3144;
+    color: #ffffff;
+    border: 2px solid #be3144;
     }
 }
 
